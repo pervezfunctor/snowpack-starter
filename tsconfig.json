@@ -28,8 +28,10 @@
     "declarationMap": true,
     "esModuleInterop": true,
     "isolatedModules": false,
+    "incremental": true,
     "lib": ["dom", "dom.iterable", "es2018"],
     "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
@@ -37,7 +39,6 @@
     "noUnusedParameters": true,
     "outDir": "lib",
     "rootDir": "src",
-    "sourceMap": true,
-    "suppressImplicitAnyIndexErrors": true,
+    "sourceMap": true
   }
 }
